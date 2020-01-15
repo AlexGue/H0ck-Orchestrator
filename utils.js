@@ -20,5 +20,4 @@ function combineVariables(mapCombine) {
     var possibilities = [];
     auxiliar(mapCombine, {}, 0, possibilities);
     return possibilities;
-
 }
