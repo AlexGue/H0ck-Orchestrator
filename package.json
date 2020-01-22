@@ -1,0 +1,27 @@
+{
+  "name": "h0ck-orchestrator",
+  "version": "1.0.0",
+  "description": "H0ck Back-end Attack Orchestrator",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "uuid-random": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGue/H0ck-Orchestrator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexGue/H0ck-Orchestrator/issues"
+  },
+  "homepage": "https://github.com/AlexGue/H0ck-Orchestrator#readme"
+}
