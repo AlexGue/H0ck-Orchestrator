@@ -5,12 +5,13 @@ var uuid = require('uuid-random');
 var request = require('request');
 var utils = require('./utils')
 const bodyParser = require('body-parser');
-
+var cors = require('cors')
 
 var taskMap = {}
 var resolutionMap = {}
 
 app.use(bodyParser.json());
+app.use(cors())
 
 app.get('/tasks/resume', (req, res) => {
     var taskClone = {};
